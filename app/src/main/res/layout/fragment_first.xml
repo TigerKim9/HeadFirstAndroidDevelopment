@@ -7,31 +7,19 @@
     tools:context=".FirstFragment">
 
     <TextView
-        android:id="@+id/textview_first"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Login 해주떼염"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="242dp" />
 
-    <Button
-        android:id="@+id/button_first"
+    <EditText
+        android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="192dp"
-        android:layout_height="54dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="392dp" />
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="315dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
